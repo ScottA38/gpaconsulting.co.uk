@@ -1,12 +1,8 @@
 version: 1
 frontend:
   phases:
-    preBuild:
-      commands:
-        - yarn install --frozen-lockfile
     build:
       commands:
-        - yarn run build
         - hugo
   artifacts:
     baseDirectory: public
