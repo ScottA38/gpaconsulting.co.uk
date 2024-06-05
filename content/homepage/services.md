@@ -24,3 +24,9 @@ When we audit for you, we will first meet with you to agree audit scope. This wi
 From there, we will agree specifics of out work with you, such as whether an on-site visit is required to the auditee firm, the nature of the binding authorties to audit etc. This will determine the duration of the auditing process.
 
 Once we have reached an understanding, we will discreetly investigate all required areas of the business in question and report back to you our findings.
+
+{{< services.inline >}}
+        {{ range $key, $value := .Site.Data.companyservices }}
+            {{ partial "service.html" (dict "context" . "serviceName" $key "serviceData" $value ) }}
+        {{ end }}
+{{< /services.inline >}}
