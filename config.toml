@@ -1,8 +1,11 @@
 baseURL = ''
 relativeURLs = "True"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'GPA Consulting Ltd.'
 theme = "hugo-scroll"
+
+[security]
+    enableInlineShortcodes = "true"
 
 [params]
 
@@ -13,7 +16,7 @@ theme = "hugo-scroll"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
     # NOT the actual header background image, go to _index.md instead
-    images = ["images/cover-image.jpg"]
+    images = ["images/gpa-consulting-logo-ezgif.com-avif-to-png-converter.png"]
 
     # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
     # Ideal images are homogenous around the centre and contrasting to the text.
@@ -48,7 +51,7 @@ theme = "hugo-scroll"
     showFooterLinks = false
 
     [params.meta]
-        keywords = "insurance, consulting, binding, authority, business, audit, lloyds, broker, underwriter, contract"
+        keywords = "insurer, service, delivery, focus, scopes, claims, processes, report, adherence, market, technical, underwriting, experience, remote, personal, coverholder, agents, client, audits, review, audited, administrators, contract, staff, insurance, directors, principles, considerable, modular, support, customer, conscious, conduct, consulting, bespoke, travel, lloyd’s, operations, developed, findings, management, authority, comprehensive, requirements, partner, regulation, industry, discuss, onsite"
 
     [[params.contacts]]
         label = "phone"

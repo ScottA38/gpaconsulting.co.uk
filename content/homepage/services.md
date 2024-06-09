@@ -1,13 +1,13 @@
 ---
-title: 'Services'
+title: 'Our Services'
 
 # The "header_menu_title" value will be used as text for header buttons.
 # The "title" value will be used if value for "header_menu_title" is not provided.
-header_menu_title: 'The Auditing Process'
+header_menu_title: 'Services'
 
 # The "navigation_menu_title" value will be used as text for fixed menu items.
 # The "title" value will be used if value for "navigation_menu_title" is not provided.
-navigation_menu_title: 'Our Process'
+navigation_menu_title: 'Our Services'
 
 # The "weight" will determine where this section appears on the "homepage".
 # A bigger weight will place the content more towards the bottom of the page.
@@ -19,8 +19,44 @@ weight: 3
 header_menu: true
 ---
 
-When we audit for you, we will first meet with you to agree audit scope. This will allow you the time and space to clarify any uncertainties you may have about our processes within the scope of our audit for you.
+**Delegated Authority Audit**
 
-From there, we will agree specifics of out work with you, such as whether an on-site visit is required to the auditee firm, the nature of the binding authorties to audit etc. This will determine the duration of the auditing process.
+This is currently the Company’s main area of operations. Currently contracted to approximately 40 Managing Agents and Insurers, working closely clients, the Company is able to provide a personal and tailored service to each.
 
-Once we have reached an understanding, we will discreetly investigate all required areas of the business in question and report back to you our findings.
+ 
+
+**Technical Underwriting Reviews**
+
+The Company retains considerable experience in the underwriting of a wide range of classes of business and can offer comprehensive, technical underwriting reviews to client’s specific requirements.
+
+ 
+
+**Claims Review Services**
+
+The Company also have considerable skills in the control and management of claims and associated control processes and have completed comprehensive technical claims reviews.
+
+ 
+
+**Customer Outcome and Consumer Duty Reviews**
+
+The company offers conduct risk and consumer duty specific reviews, which focus on the adherence of the company being audited to the outcomes required under FCA principles. Delegated Authority Audit
+
+This is currently the Company’s main area of operations. Currently contracted to approximately 40 Managing Agents and Insurers, working closely clients, the Company is able to provide a personal and tailored service to each.
+
+ 
+
+**Technical Underwriting Reviews**
+
+The Company retains considerable experience in the underwriting of a wide range of classes of business and can offer comprehensive, technical underwriting reviews to client’s specific requirements.
+
+ 
+
+**Claims Review Services**
+
+The Company also have considerable skills in the control and management of claims and associated control processes and have completed comprehensive technical claims reviews.
+
+ 
+
+**Customer Outcome and Consumer Duty Reviews**
+
+The company offers conduct risk and consumer duty specific reviews, which focus on the adherence of the company being audited to the outcomes required under FCA principles. 

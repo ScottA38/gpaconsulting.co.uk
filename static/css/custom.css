@@ -1,0 +1,21 @@
+.site-header-bar {
+    display: flex;
+    gap: 50px;
+
+    .blog-description {
+        text-align: left;
+    }
+}
+
+.contact-details__list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.contact-details__item {
+    margin: 10px 20px;
+}
+
+.contact-details__item .fa {
+    margin-right: 10px;
+}

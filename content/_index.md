@@ -1,16 +1,16 @@
 ---
 # Striking header background image, Ideal images are homogenous around the centre and contrasting to the text. Non-ideal images can use `title_guard`
-header_image: "images/cover-image.jpg"
+header_image: "images/chang-duong-Sj0iMtq_Z4w-unsplash.jpg"
 #
 # When set true, uses video from custom_header_video.html partial, instead of header_image
 header_use_video: false
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-header_logo: "images/chef-hat.png"
+header_logo: "images/gpa-consulting-logo-ezgif.com-avif-to-png-converter.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "GPA Consulting Ltd"
-header_subheadline: "Your <b>partners</b> in delegatead binding authority <b>auditing</b> services"
+header_subheadline: "Your <b>partner</b> in delegated authority <b>auditing</b>"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry

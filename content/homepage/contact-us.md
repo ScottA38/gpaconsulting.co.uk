@@ -12,13 +12,30 @@ navigation_menu_title: 'Contact Us'
 # The "weight" will determine where this section appears on the "homepage".
 # A bigger weight will place the content more towards the bottom of the page.
 # It's like gravity ;-).
-weight: 5
+weight: 7
 
 # If "header_menu" is true, then a button linking to this section will be placed
 # into the header menu at the top of the homepage.
 header_menu: true
 ---
 
-To speak to the GPA Consulting Team, please send enquiries to info@gpaconsulting.co.uk.
+**GPA Consulting Services Ltd**
 
-We look forward to your enquiry, and will respond as soon as we can.
+{{< contact.inline >}}
+<ul class="contact-details__list">
+    <li class="contact-details__item">
+        <i class="fa fa-map-pin" aria-hidden="true"></i>
+        Suites 10/11a, Philpot House, Station Road, Rayleigh Essex, SS6 7HH, United Kingdom
+    </li>
+    <li class="contact-details__item">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        01268 778775
+    </li>
+    <li class="contact-details__item">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        info@gpaconsulting.co.uk
+    </li>
+</ul>
+
+<p>We look forward to your enquiry, and will respond as soon as we can.</p>
+{{< /contact.inline >}}
