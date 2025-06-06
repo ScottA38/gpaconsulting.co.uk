@@ -1,8 +1,15 @@
 version: 1
 frontend:
   phases:
+    preBuild:
+      commands:
+        - yarn install --frozen-lockfile
     build:
       commands:
+        - export TINA_CLIENT_ID=$TINA_CMS_CLIENTID
+        - export TINA_TOKEN=$TINA_CMS_TOKEN
+        - export TINA_BRANCH=$TINA_CMS_BRANCH
+        - yarn run build
         - hugo
   artifacts:
     baseDirectory: public
