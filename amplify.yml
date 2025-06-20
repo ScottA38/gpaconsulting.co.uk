@@ -10,7 +10,7 @@ frontend:
         - export TINA_TOKEN=$TINA_CMS_TOKEN
         - export TINA_BRANCH=$TINA_CMS_BRANCH
         - yarn run build
-        - hugo
+        - tinacms dev -c \"hugo server -D\"
   artifacts:
     baseDirectory: public
     files:
