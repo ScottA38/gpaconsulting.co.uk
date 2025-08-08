@@ -6,9 +6,9 @@ frontend:
         - yarn install --frozen-lockfile
     build:
       commands:
-        - export TINA_CLIENT_ID=$TINA_CMS_CLIENTID
+        - export NEXT_PUBLIC_TINA_CLIENT_ID=$TINA_CMS_CLIENTID
         - export TINA_TOKEN=$TINA_CMS_TOKEN
-        - export TINA_BRANCH=$TINA_CMS_BRANCH
+        - export GITHUB_BRANCH=$TINA_CMS_BRANCH
         - yarn run build
         - hugo
   artifacts:
