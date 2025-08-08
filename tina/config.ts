@@ -1,6 +1,7 @@
 import { defineConfig } from "tinacms";
 import Post from "./collections/post";
 import CompanyService from "./collections/company-service";
+import HomepageSection from "./collections/homepage-section";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -31,7 +32,8 @@ export default defineConfig({
   schema: {
     collections: [
       Post,
-      CompanyService
+      CompanyService,
+      HomepageSection,
     ],
   },
 });
