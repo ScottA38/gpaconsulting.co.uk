@@ -19,8 +19,5 @@ weight: 3
 header_menu: true
 ---
 
-{{< services.inline >}}
-        {{ range $key, $value := .Site.Data.companyservices }}
-            {{ partial "service.html" (dict "context" . "serviceName" $key "serviceData" $value ) }}
-        {{ end }}
-{{< /services.inline >}}
+<!-- Displays a 'grid' of company services, based upon data from the 'services' section of the admin -->
+{{< services >}}

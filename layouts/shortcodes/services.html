@@ -1,0 +1,3 @@
+{{ range $key, $value := .Site.Data.companyservices }}
+    {{ partial "service.html" (dict "context" . "serviceName" $key "serviceData" $value ) }}
+{{ end }}
