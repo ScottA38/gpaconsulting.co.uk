@@ -1,6 +1,4 @@
 import { defineConfig } from "tinacms";
-import Post from "./collections/post";
-import CompanyService from "./collections/company-service";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -13,7 +11,7 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: process.env.TINA_CLIENT_ID,
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   // Get this from tina.io
   token: process.env.TINA_TOKEN,
 
@@ -22,16 +20,34 @@ export default defineConfig({
     publicFolder: "static",
   },
   media: {
-    loadCustomStore: async () => {
-      const pack = await import("next-tinacms-cloudinary");
-      return pack.TinaCloudCloudinaryMediaStore;
+    tina: {
+      mediaRoot: "",
+      publicFolder: "static",
     },
-	},
+  },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
-      Post,
-      CompanyService
+      {
+        name: "post",
+        label: "Posts",
+        path: "content/posts",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
     ],
   },
 });
