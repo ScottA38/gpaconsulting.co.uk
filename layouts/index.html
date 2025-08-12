@@ -23,7 +23,7 @@
         <div id="site-head-content" class="inner">
             <div class="site-header-bar">
                 {{ with .Params.header_logo }}<img id="blog-logo" alt="Logo" src="{{ . }}" />{{ end }}
-                {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . | safeHTML }}</h2>{{ end }}
+                {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . | markdownify | safeHTML }}</h2>{{ end }}
             </div>
 
             {{ with (index $content 0) }}

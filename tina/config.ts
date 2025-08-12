@@ -2,6 +2,7 @@ import { defineConfig } from "tinacms";
 import Post from "./collections/post";
 import CompanyService from "./collections/company-service";
 import HomepageSection from "./collections/homepage-section";
+import IndexConfig from "./collections/index-config";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -34,6 +35,10 @@ export default defineConfig({
       Post,
       CompanyService,
       HomepageSection,
+      IndexConfig,
     ],
   },
+  client: {
+    skip: true
+  }
 });
