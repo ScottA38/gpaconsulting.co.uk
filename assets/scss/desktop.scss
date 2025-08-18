@@ -21,18 +21,20 @@
     }
 }
 
-.contact-details__list {
-    margin-left: 30px;
-    padding-left: 0;
-    list-style: none;
-}
+.contact-details {
+    &__list {
+        margin-left: 30px;
+        padding-left: 0;
+        list-style: none;
+    }
 
-.contact-details__item {
-    margin: 10px 0;
-}
+    &__item {
+        margin: 10px 0;
 
-.contact-details__item .fa {
-    margin-right: 10px;
+        & .fa {
+            margin-right: 10px;
+        }
+    }
 }
 
 #our-services {

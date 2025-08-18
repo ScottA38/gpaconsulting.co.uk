@@ -1,8 +1,11 @@
 ---
 nav_to_top_title: Return To Top
 nav_to_top_weight: last
-header_subheadline: ''
-header_logo: /images/gpa-consulting-logo-ezgif.com-avif-to-jpg-converter.jpg
+header_headline: |
+  GPA Consulting **ltd.**
+header_subheadline: |
+  Your **Partners** in delegated binding authority **management.**
+header_logo: /images/gpa-consulting-logo-ezgif.com-avif-to-png-converter.png
 header_image: /sagrada.jpg
 header_use_video: false
 navToTopTitle: Return to Top

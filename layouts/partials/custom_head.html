@@ -28,7 +28,7 @@
      local "static/css"-directory. Then add a <link>-tag
      referencing your "custom.css" like so: -->
 
-<link rel="stylesheet" href='{{ "css/custom.css" | absURL }}'>
+{{- partial "stylesheet_importer" "scss/main.scss" -}}
 
 <!-- Custom CSS: Color Codes
      You may checkout https://htmlcolorcodes.com/ to get those
