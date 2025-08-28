@@ -6,7 +6,7 @@ header_headline: |
 header_subheadline: |
   Your **Partners** in delegated binding authority **management.**
 header_logo: /images/gpa-consulting-logo-ezgif.com-avif-to-png-converter.png
-header_image: /sagrada.jpg
+header_image: /IMG_1430.jpg
 header_use_video: false
 navToTopTitle: Return to Top
 ---
