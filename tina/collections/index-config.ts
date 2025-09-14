@@ -1,6 +1,5 @@
 import { Collection, Form } from "tinacms";
 
-
 const HomepageConfig: Collection = {
     name: "indexConfig",
     label: "Index Configuration",
