@@ -20,10 +20,8 @@
   },
   "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
   "dependencies": {
-    "@tinacms/cli": "^1.9.8",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tinacms": "^2.7.8"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^24.2.0"
