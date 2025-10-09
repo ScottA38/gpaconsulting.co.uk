@@ -37,8 +37,5 @@ export default defineConfig({
       HomepageSection,
       IndexConfig,
     ],
-  },
-  client: {
-    skip: true
   }
 });
