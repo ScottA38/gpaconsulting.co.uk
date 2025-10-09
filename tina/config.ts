@@ -29,13 +29,8 @@ export default defineConfig({
       publicFolder: "static",
     },
   },
-  // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
+  // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/r/content-modelling-collections/
   schema: {
-    collections: [
-      Post,
-      CompanyService,
-      HomepageSection,
-      IndexConfig,
-    ],
-  }
+    collections: [Post, CompanyService, HomepageSection, IndexConfig],
+  },
 });
