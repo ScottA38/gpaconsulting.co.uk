@@ -4,6 +4,7 @@
   "description": "Busines info site for gpaconsulting.co.uk",
   "main": "index.js",
   "scripts": {
+    "tina-init": "@tinacms/cli init",
     "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,10 +21,12 @@
   },
   "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
   "dependencies": {
+    "@tinacms/cli": "^1.11.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "tinacms": "^2.9.0"
   },
   "devDependencies": {
-    "@types/node": "^24.2.0"
+    "@types/node": "^24.7.0"
   }
 }
